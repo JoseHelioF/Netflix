@@ -1,0 +1,83 @@
+:root{
+    --colorborder:#252525;
+    --unitcolor:#fff;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffe;
+}
+
+h1 {
+    color: #943e3c;
+    text-align: center;
+}
+
+.main {
+    width: 500px;
+    height: 532px;
+    margin-top: 1rem;
+}
+
+#inputs {
+    width: 500px;
+    height: 320px;
+}
+
+.lines {
+    width: 500px;
+    height: 40px;
+    display: flex;
+    margin-bottom: 1rem;
+    justify-content: center;
+
+}
+
+.input {
+    width: 48px;
+    height: 40px;
+    border: #252525 solid 1px;
+    border-radius: 5px;
+    margin-left: 8px;
+    margin-right: 8px;
+    background-color:var(--unitcolor);
+}
+
+#keyboard{
+    width: 500px;
+    height: 188px;
+    margin-top: 2rem;
+}
+.keyboardLines{
+    width: 500px;
+    height: 40px;
+    display: flex;
+    margin-bottom: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.check{
+    width: 100px;
+    height: 40px;
+    border: var(--colorborder) solid 1px;
+    border-radius: 5px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color: var(--unitcolor);
+}
+.check svg{
+     color: rgba(16,16,16, 0.3);
+}
+.key{
+    width: 38px;
+    height: 40px;
+    border:var(--colorborder) solid 1px;
+    border-radius: 5px;
+    margin-left: 4px;
+    margin-right: 4px;
+    background-color: var(--unitcolor);
+    text-align: center;
+}
